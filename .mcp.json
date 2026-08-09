@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "60fps": {
+    "library": {
       "type": "http",
       "url": "https://mcp.60fps.design/mcp",
       "note": "Hosted 60fps MCP server. Uses OAuth: on first connection the agent is prompted to authorise in the browser. Requires a 60fps PRO licence. Read-only, it never writes anything."
