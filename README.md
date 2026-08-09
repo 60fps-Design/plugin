@@ -41,6 +41,27 @@ The server is hosted, so there is nothing to run locally. Signing in opens OAuth
 You need a [60fps PRO](https://60fps.design/pro) licence. Without one the tools connect but return a
 401. That is intended, not a fault.
 
+## Use it with Xcode
+
+Xcode 26.3 and later ship their own MCP server, so an agent can drive the build system, the
+Simulator, Previews and the debugger. Point that agent at 60fps at the same time and the loop closes:
+it finds a real interaction, reads the motion breakdown, writes the SwiftUI, builds it, and looks at
+the result.
+
+Xcode launches the agent for you, with its own tools already wired in:
+
+```bash
+xcrun mcpbridge run-agent claude
+```
+
+Anything you have installed in that agent comes along, so with this plugin the session has both
+toolsets. A prompt like "find how Threads does pull to refresh, then build it in this project and
+show me the Preview" is one agent turn rather than three tools and a copy and paste.
+
+`xcrun mcpbridge --help` lists the rest, including `--no-xcode-tools` to leave Xcode's tools out and
+`run-agent skills export` to dump the skills Xcode ships. The bridge needs Xcode open on a project,
+and agent access enabled in Xcode's settings, before it will hand anything over.
+
 ## What it covers
 
 iOS only, and motion only.
