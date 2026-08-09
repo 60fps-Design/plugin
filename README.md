@@ -26,8 +26,15 @@ The server is hosted, so there is nothing to run locally. Signing in opens OAuth
 
 - **Cursor**: install from the marketplace, or from the Customize panel.
 - **Grok Build**: install from the plugin marketplace.
-- **Claude Code**: add the plugin, or add the server directly with
-  `claude mcp add --transport http 60fps https://mcp.60fps.design/mcp`.
+- **Claude Code**: add this repo as a marketplace, then install the plugin.
+
+  ```
+  /plugin marketplace add 60fps-Design/plugin
+  /plugin install 60fps@60fps-design
+  ```
+
+  Or skip the plugin and add only the server:
+  `claude mcp add --transport http 60fps https://mcp.60fps.design/mcp`
 - **Anything else that speaks MCP**: point it at `https://mcp.60fps.design/mcp` over streamable
   HTTP. See [mcp.json](mcp.json).
 

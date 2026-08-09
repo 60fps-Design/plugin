@@ -1,0 +1,23 @@
+{
+  "name": "60fps-design",
+  "owner": {
+    "name": "60fps Design",
+    "url": "https://60fps.design"
+  },
+  "description": "Reference library of real iOS interaction clips, with motion breakdowns and compile-checked SwiftUI.",
+  "plugins": [
+    {
+      "name": "60fps",
+      "source": "./",
+      "description": "Search 2,000+ real iOS interaction clips by describing the motion you want, then get compile-checked SwiftUI that recreates it.",
+      "author": {
+        "name": "60fps Design",
+        "url": "https://60fps.design"
+      },
+      "homepage": "https://60fps.design/mcp",
+      "repository": "https://github.com/60fps-Design/plugin",
+      "license": "MIT",
+      "keywords": ["swiftui", "ios", "animation", "motion-design", "interaction-design", "ui", "reference"]
+    }
+  ]
+}
