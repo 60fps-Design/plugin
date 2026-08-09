@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "design.60fps/library",
+  "title": "60fps",
+  "description": "Real iOS interaction clips, motion breakdowns, SwiftUI to match. Paid licence required.",
+  "version": "1.0.0",
+  "websiteUrl": "https://60fps.design/mcp",
+  "repository": {
+    "url": "https://github.com/60fps-Design/plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.60fps.design/mcp"
+    }
+  ]
+}

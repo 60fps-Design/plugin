@@ -1,0 +1,25 @@
+{
+  "name": "60fps",
+  "version": "1.0.0",
+  "description": "Search 2,000+ real iOS interaction clips by describing the motion you want, then get compile-checked SwiftUI that recreates it.",
+  "keywords": ["swiftui", "ios", "animation", "motion-design", "interaction-design", "ui", "reference"],
+  "homepage": "https://60fps.design/mcp",
+  "license": "MIT",
+  "author": {
+    "name": "60fps Design",
+    "url": "https://60fps.design"
+  },
+  "skills": ["./skills"],
+  "mcpServers": {
+    "library": {
+      "transport": "http",
+      "url": "https://mcp.60fps.design/mcp"
+    }
+  },
+  "interface": {
+    "displayName": "60fps",
+    "shortDescription": "Real iOS interaction clips, with motion breakdowns and compile-checked SwiftUI.",
+    "developerName": "60fps Design",
+    "websiteURL": "https://60fps.design"
+  }
+}
