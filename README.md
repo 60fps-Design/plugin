@@ -1,4 +1,4 @@
-# 60fps for Cursor
+# 60fps
 
 Describe the motion you want. Get back a real iOS clip that does it, and a SwiftUI file that
 recreates it.
@@ -22,8 +22,14 @@ leave it alone.
 
 ## Install
 
-Install from the Cursor marketplace, or from the Customize panel. The server is hosted, so there is
-nothing to run. Signing in opens OAuth in your browser.
+The server is hosted, so there is nothing to run locally. Signing in opens OAuth in your browser.
+
+- **Cursor**: install from the marketplace, or from the Customize panel.
+- **Grok Build**: install from the plugin marketplace.
+- **Claude Code**: add the plugin, or add the server directly with
+  `claude mcp add --transport http 60fps https://mcp.60fps.design/mcp`.
+- **Anything else that speaks MCP**: point it at `https://mcp.60fps.design/mcp` over streamable
+  HTTP. See [mcp.json](mcp.json).
 
 You need a [60fps PRO](https://60fps.design/pro) licence. Without one the tools connect but return a
 401. That is intended, not a fault.
@@ -56,7 +62,7 @@ request, for storyboard frames from Framer's image CDN, and sends nothing about 
 
 ## Licence
 
-MIT, for this repository only: the manifest, the skill text and the logo.
+MIT, for this repository only: the manifests, the skill text and the logo.
 
 It does not license the 60fps library, the hosted service, or the clips and code they return. Those
 stay under the [terms](https://60fps.design/terms).
