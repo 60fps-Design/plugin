@@ -1,0 +1,21 @@
+{
+  "name": "60fps",
+  "displayName": "60fps",
+  "version": "1.0.0",
+  "description": "Search 2,000+ real iOS interaction clips by describing the motion you want, then get compile-checked SwiftUI that recreates it.",
+  "author": {
+    "name": "60fps.design",
+    "email": "pyxelapps@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "swiftui",
+    "ios",
+    "animation",
+    "motion-design",
+    "interaction-design",
+    "ui",
+    "reference"
+  ],
+  "logo": "assets/logo.png"
+}
