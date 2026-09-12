@@ -3,7 +3,7 @@
     "library": {
       "type": "http",
       "url": "https://mcp.60fps.design/mcp",
-      "note": "Hosted 60fps MCP server. Uses OAuth: on first connection the agent is prompted to authorise in the browser. Requires a 60fps PRO licence. Read-only, it never writes anything."
+      "note": "Hosted 60fps MCP server. Uses OAuth: on first connection the agent is prompted to authorise in the browser. Requires a 60fps MCP licence, or a 60fps PRO licence bought on or before 12 Sep 2026. Read-only, it never writes anything."
     }
   }
 }

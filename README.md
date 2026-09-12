@@ -38,8 +38,10 @@ The server is hosted, so there is nothing to run locally. Signing in opens OAuth
 - **Anything else that speaks MCP**: point it at `https://mcp.60fps.design/mcp` over streamable
   HTTP. See [mcp.json](mcp.json).
 
-You need a [60fps PRO](https://60fps.design/pro) licence. Without one the tools connect but return a
-401. That is intended, not a fault.
+You need a 60fps licence key: a [60fps MCP](https://60fps.design/mcp) key, or a
+[60fps PRO](https://60fps.design/pro) key bought on or before 12 Sep 2026. PRO bought after that date
+does not include the MCP. Without a key the tools connect but return a 401. That is intended, not a
+fault.
 
 ## Use it with Xcode
 
