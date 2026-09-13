@@ -1,6 +1,7 @@
 # 60fps
 
 [![60fps MCP on Glama: tool definition quality and endpoint health](https://glama.ai/mcp/connectors/design.60fps/library/badges/score.svg)](https://glama.ai/mcp/connectors/design.60fps/library)
+[![smithery badge](https://smithery.ai/badge/pyxelapps/MCP-60fps)](https://smithery.ai/servers/pyxelapps/MCP-60fps)
 
 Describe the motion you want. Get back a real iOS clip that does it, and a SwiftUI file that
 recreates it.
