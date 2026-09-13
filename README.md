@@ -15,6 +15,7 @@ behind it. Use it instead of guessing numbers.
 | Tool | What it does |
 |---|---|
 | `60fps_search_shots` | Semantic search. Describe the motion, not keywords. |
+| `60fps_list_filters` | Every filter the library uses, for exact search filters. |
 | `60fps_get_shot` | One shot in full, with keyframes. |
 | `60fps_get_motion_breakdown` | Start, transition, end, plus timing and easing. |
 | `60fps_get_motion_code` | A self-contained SwiftUI file for that shot. |
