@@ -1,0 +1,17 @@
+{
+  "name": "60fps",
+  "displayName": "60fps",
+  "description": "Search 2,000+ real iOS interaction clips by describing the motion you want, then get compile-checked SwiftUI that recreates it. Every clip carries a written motion breakdown: start state, transition, end state, timing and easing, taken from apps that shipped.",
+  "homepage": "https://60fps.design/mcp",
+  "repository": "https://github.com/60fps-Design/plugin",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "Design & Creative",
+    "Development Tools"
+  ],
+  "mcpServers": {
+    "60fps": {
+      "url": "https://mcp.60fps.design/mcp"
+    }
+  }
+}
