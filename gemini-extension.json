@@ -1,0 +1,11 @@
+{
+  "name": "60fps",
+  "version": "1.0.0",
+  "description": "Search 2,000+ real iOS interaction clips by describing the motion you want, then get compile-checked SwiftUI that recreates it. Requires a 60fps MCP licence; sign-in is OAuth in the browser on first connection.",
+  "mcpServers": {
+    "library": {
+      "httpUrl": "https://mcp.60fps.design/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

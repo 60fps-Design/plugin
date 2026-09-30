@@ -28,8 +28,14 @@ leave it alone.
 
 The server is hosted, so there is nothing to run locally. Signing in opens OAuth in your browser.
 
-- **Cursor**: install from the marketplace, or from the Customize panel.
-- **Grok Build**: install from the plugin marketplace.
+- **Cursor**: add the server from Settings > MCP with the URL below, or copy [mcp.json](mcp.json).
+  (The Cursor marketplace listing is under review.)
+- **Grok Build**: the plugin marketplace listing is under review; until then, add the server by URL.
+- **Gemini CLI**: install this repo as an extension.
+
+  ```
+  gemini extensions install https://github.com/60fps-Design/plugin
+  ```
 - **Claude Code**: add this repo as a marketplace, then install the plugin.
 
   ```
