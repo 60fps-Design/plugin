@@ -36,6 +36,14 @@ Skills come with it. Each one teaches the agent a bigger job, using the same too
 
 None of them changes your code until you say so.
 
+Any coding agent (Claude Code, Cursor, Codex and more) can add the skills on their own:
+
+```
+npx skills add 60fps-Design/plugin
+```
+
+That adds the skills only. Connect the server as below so they can use it.
+
 ## Install
 
 The server is hosted, so there is nothing to run locally. Signing in opens OAuth in your browser.
