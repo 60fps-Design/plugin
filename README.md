@@ -41,7 +41,6 @@ None of them changes your code until you say so.
 The server is hosted, so there is nothing to run locally. Signing in opens OAuth in your browser.
 
 - **Cursor**: add the server from Settings > MCP with the URL below, or copy [mcp.json](mcp.json).
-  (The Cursor marketplace listing is under review.)
 - **Grok Build**: add the server by URL.
 - **Gemini CLI**: install this repo as an extension.
 
