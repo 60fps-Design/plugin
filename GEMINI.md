@@ -44,3 +44,9 @@ When asked where an app should have motion, follow skills/find-animation-opportu
 take stock of the motion already there, find the few moments that carry meaning, flag broken or
 overdone motion, say what to leave still, then search 60fps for a real reference for each. Change
 no code until the user picks one.
+
+## Other jobs
+
+For a consistent set of timings, springs and haptics, follow skills/motion-system/SKILL.md. For the
+loading, success and error states of one feature, follow skills/feedback-states/SKILL.md. For a
+handoff spec of one shot, follow skills/motion-spec/SKILL.md.
