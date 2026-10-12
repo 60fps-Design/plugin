@@ -21,8 +21,13 @@ behind it. Use it instead of guessing numbers.
 | `60fps_get_motion_code` | A self-contained SwiftUI file for that shot. |
 | `60fps_get_related_shots` | For when the first pick is close but not right. |
 
-There is also a `motion-reference` skill. It tells the agent when to use the library and when to
-leave it alone.
+Two skills come with it:
+
+- `motion-reference` tells the agent when to use the library and when to leave it alone.
+- `find-animation-opportunities` answers "where should my app animate?". The agent reads your
+  SwiftUI code, finds the few moments where motion helps (waiting, success and failure, things
+  appearing, numbers changing), flags motion that is broken or overdone, says what to leave still,
+  and recommends real shots to copy for each. It changes no code until you pick one.
 
 ## Install
 

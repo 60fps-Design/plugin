@@ -37,3 +37,10 @@ Each file is standalone. Paste it into Xcode and run it.
 
 It carries none of the original app's words, colours, branding or assets, by design. Restyle it to
 the user's design system. The motion is the part worth keeping.
+
+## Finding where an app should animate
+
+When asked where an app should have motion, follow skills/find-animation-opportunities/SKILL.md:
+take stock of the motion already there, find the few moments that carry meaning, flag broken or
+overdone motion, say what to leave still, then search 60fps for a real reference for each. Change
+no code until the user picks one.
