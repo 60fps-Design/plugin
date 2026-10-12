@@ -5,6 +5,11 @@ description: >
   states, a timed sequence of beats, springs and curves with real values, haptics, interruptions and
   Reduce Motion. Use when asked for a motion spec, an animation spec, a handoff, a breakdown "for my
   developer", or to document how an interaction should behave. iOS only.
+license: MIT
+compatibility: Needs the 60fps MCP server (https://mcp.60fps.design/mcp), signed in with OAuth.
+metadata:
+  author: 60fps-Design
+  version: "1.0"
 ---
 
 # Motion spec

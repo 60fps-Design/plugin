@@ -6,6 +6,11 @@ description: >
   state, backed by real shipped apps. Use when asked to add or improve loading states, success or
   error feedback, empty states, retry flows, or "what should happen while this loads". SwiftUI and
   UIKit, iOS only.
+license: MIT
+compatibility: Needs the 60fps MCP server (https://mcp.60fps.design/mcp), signed in with OAuth.
+metadata:
+  author: 60fps-Design
+  version: "1.0"
 ---
 
 # Feedback states

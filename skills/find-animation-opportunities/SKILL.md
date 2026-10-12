@@ -6,6 +6,11 @@ description: >
   Use when asked where an app should animate, how to make it feel more alive or polished, to audit
   or review its motion or haptics, or what micro-interactions to add. Reads SwiftUI and UIKit code.
   iOS only.
+license: MIT
+compatibility: Needs the 60fps MCP server (https://mcp.60fps.design/mcp), signed in with OAuth.
+metadata:
+  author: 60fps-Design
+  version: "1.0"
 ---
 
 # Find animation opportunities

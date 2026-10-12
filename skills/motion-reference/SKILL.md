@@ -6,6 +6,11 @@ description: >
   a pull-to-refresh, a card morph, an onboarding sequence, a loading state, a success moment.
   Also use when asked "how does app X do Y" about mobile motion, or for a reference clip to
   copy. iOS and SwiftUI only.
+license: MIT
+compatibility: Needs the 60fps MCP server (https://mcp.60fps.design/mcp), signed in with OAuth.
+metadata:
+  author: 60fps-Design
+  version: "1.0"
 ---
 
 # Motion reference

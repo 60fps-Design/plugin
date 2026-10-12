@@ -5,6 +5,11 @@ description: >
   in a single Motion.swift, derived from the app's own code and from real shipped apps with the same
   feel. Use when asked to make an app's animations consistent, create motion tokens or a motion
   system, clean up scattered animation values, or define how the app should move. SwiftUI, iOS only.
+license: MIT
+compatibility: Needs the 60fps MCP server (https://mcp.60fps.design/mcp), signed in with OAuth.
+metadata:
+  author: 60fps-Design
+  version: "1.0"
 ---
 
 # Motion system
