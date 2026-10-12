@@ -42,7 +42,7 @@ The server is hosted, so there is nothing to run locally. Signing in opens OAuth
 
 - **Cursor**: add the server from Settings > MCP with the URL below, or copy [mcp.json](mcp.json).
   (The Cursor marketplace listing is under review.)
-- **Grok Build**: the plugin marketplace listing is under review; until then, add the server by URL.
+- **Grok Build**: add the server by URL.
 - **Gemini CLI**: install this repo as an extension.
 
   ```
