@@ -3,7 +3,7 @@
   "name": "design.60fps/library",
   "title": "60fps",
   "description": "Real iOS interaction clips, motion breakdowns, SwiftUI to match. Paid licence required.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://60fps.design/mcp",
   "repository": {
     "url": "https://github.com/60fps-Design/plugin",
@@ -13,6 +13,15 @@
     {
       "type": "streamable-http",
       "url": "https://mcp.60fps.design/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://mcp.60fps.design/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ]
     }
   ]
 }
